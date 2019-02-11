@@ -22,7 +22,7 @@ class Pizza{
 }
 
 
-var myPizza = Pizza(name: "Goat Cheese")
+
 do{
     // Initialize toppings
     let pepperoni:PizzaTopping = PizzaTopping(name: "Pepperoni")
