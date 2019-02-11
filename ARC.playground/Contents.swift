@@ -9,7 +9,7 @@ import UIKit
 
 class PizzaTopping{
     let name:String
-    weak var onPizza: Pizza!
+    var onPizza: Pizza!
     init(name:String){ self.name = name }
     deinit { print("Deinitializing \(name)") }
 }
