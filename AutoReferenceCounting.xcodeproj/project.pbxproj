@@ -15,13 +15,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1CBB19622111086008C01A8 /* AutoRefrenceCounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRefrenceCounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CBB19622111086008C01A8 /* AutoReferenceCounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoReferenceCounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CBB19922111087008C01A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CBB19B22111087008C01A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1CBB19E22111087008C01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1CBB1A02211108E008C01A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1CBB1A32211108E008C01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1CBB1A52211108E008C01A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CBB1AB221110B5008C01A8 /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		E1CBB18D22111086008C01A8 = {
 			isa = PBXGroup;
 			children = (
+				E1CBB1AB221110B5008C01A8 /* ARC.playground */,
 				E1CBB19822111086008C01A8 /* AutoRefrenceCounting */,
 				E1CBB19722111086008C01A8 /* Products */,
 			);
@@ -46,7 +48,7 @@
 		E1CBB19722111086008C01A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1CBB19622111086008C01A8 /* AutoRefrenceCounting.app */,
+				E1CBB19622111086008C01A8 /* AutoReferenceCounting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1CBB19522111086008C01A8 /* AutoRefrenceCounting */ = {
+		E1CBB19522111086008C01A8 /* AutoReferenceCounting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1CBB1A82211108E008C01A8 /* Build configuration list for PBXNativeTarget "AutoRefrenceCounting" */;
+			buildConfigurationList = E1CBB1A82211108E008C01A8 /* Build configuration list for PBXNativeTarget "AutoReferenceCounting" */;
 			buildPhases = (
 				E1CBB19222111086008C01A8 /* Sources */,
 				E1CBB19322111086008C01A8 /* Frameworks */,
@@ -79,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = AutoRefrenceCounting;
+			name = AutoReferenceCounting;
 			productName = AutoRefrenceCounting;
-			productReference = E1CBB19622111086008C01A8 /* AutoRefrenceCounting.app */;
+			productReference = E1CBB19622111086008C01A8 /* AutoReferenceCounting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1CBB19122111086008C01A8 /* Build configuration list for PBXProject "AutoRefrenceCounting" */;
+			buildConfigurationList = E1CBB19122111086008C01A8 /* Build configuration list for PBXProject "AutoReferenceCounting" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1CBB19522111086008C01A8 /* AutoRefrenceCounting */,
+				E1CBB19522111086008C01A8 /* AutoReferenceCounting */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1CBB19122111086008C01A8 /* Build configuration list for PBXProject "AutoRefrenceCounting" */ = {
+		E1CBB19122111086008C01A8 /* Build configuration list for PBXProject "AutoReferenceCounting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1CBB1A62211108E008C01A8 /* Debug */,
@@ -326,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1CBB1A82211108E008C01A8 /* Build configuration list for PBXNativeTarget "AutoRefrenceCounting" */ = {
+		E1CBB1A82211108E008C01A8 /* Build configuration list for PBXNativeTarget "AutoReferenceCounting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1CBB1A92211108E008C01A8 /* Debug */,

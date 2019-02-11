@@ -1,10 +1,11 @@
 //
-//  ViewController.swift
-//  AutoRefrenceCounting
-//
-//  Created by Steven Lipton on 2/10/19.
-//  Copyright © 2019 Steven Lipton. All rights reserved.
-//
+//  An exercise file for iOS Development Tips Weekly
+//  by Steven Lipton (C)2018, All rights reserved
+//  For videos go to http://bit.ly/TipsLinkedInLearning
+//  For code go to http://bit.ly/AppPieGithub
+
+
+// -- you'll find the exercise in the ARC.playround
 
 import UIKit
 
